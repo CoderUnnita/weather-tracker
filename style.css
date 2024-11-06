@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 *{
+
+    /* basic crucial designing here */
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Itim", cursive;
+
+    /* basic crucial designing here */
+
 }
 
 body{
-    
+
     /* all background image designing here  */
 
     background: url(material/bg.png);
@@ -52,7 +58,9 @@ body::before{
 }
 
 h1{
+
     /* another-container border designing  */
+    
     border-style: solid;
     border-width: 3.8px;
     border-color: white;
@@ -64,6 +72,6 @@ h1{
     margin-left: 2%;
     margin-right: 2%;
 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
 
 }
