@@ -1,7 +1,13 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Itim", cursive;
 }
 body{
     background-color: rgb(18, 17, 17);
