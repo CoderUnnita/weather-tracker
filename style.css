@@ -29,10 +29,15 @@ body::before{
 
 .main-container {
     /* border - designing begins here  */
+
     border-style: solid;
     border-width: 6px;
     border-color: white;
 
+    /* border designing ends here */
+
+    /* container specifications for better look */
+    
     width: 800px;
     height: 550px;
     margin-bottom: 3%;
