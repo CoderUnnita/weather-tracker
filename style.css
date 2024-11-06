@@ -8,6 +8,9 @@
 }
 
 body{
+    
+    /* all background image designing here  */
+
     background: url(material/bg.png);
     width: 100%;
     height: 100dvh;
@@ -16,6 +19,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* all background image designing ends here  */
+
 }
 
 body::before{
@@ -38,11 +44,26 @@ body::before{
 
     /* container specifications for better look */
 
-    
-
-    width: 800px;
-    height: 550px;
+    width: 810px;
+    height: 560px;
     margin-bottom: 3%;
     margin-top: 3%;
-    backdrop-filter: blur(12px);
+    
+}
+
+h1{
+    /* another-container border designing  */
+    border-style: solid;
+    border-width: 3.8px;
+    border-color: white;
+
+    width: 760px;
+    height: 510px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    backdrop-filter: blur(10px);
+
 }
