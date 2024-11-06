@@ -7,7 +7,8 @@
     font-family: "Itim", cursive;
 }
 body{
-    background-color: rgb(18, 17, 17);
+    background: url(material/bg.png);
+    
 }
 h1{
     color: blue;
