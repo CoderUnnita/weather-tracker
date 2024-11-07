@@ -114,3 +114,43 @@ body::before{
 .slide-button:hover::before {
     left: 100%;
 } */
+
+
+.world-clock-box{
+    /* border - designing begins here  */
+
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+
+    /* border designing ends here */
+
+    /* container specifications for better look */
+
+    width: 600px;
+    height: 600px;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-left: 70px;
+    margin-right: 55px;
+    
+}
+
+.world-clock-inner-box{
+
+    /* another-container border designing  */
+    
+    border-style: solid;
+    border-width: 3.8px;
+    border-color: white;
+
+    width: 560px;
+    height: 560px;
+    margin-top: 2.3%;
+    margin-bottom: 2.3%;
+    margin-left: 2.3%;
+    margin-right: 2.3%;
+
+    backdrop-filter: blur(12px);
+
+} 
