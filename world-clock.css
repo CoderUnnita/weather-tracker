@@ -30,3 +30,22 @@
     margin-top: 3%;
     
 }
+
+.world-clock-inner-box{
+
+    /* another-container border designing  */
+    
+    border-style: solid;
+    border-width: 3.8px;
+    border-color: white;
+
+    width: 760px;
+    height: 510px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    backdrop-filter: blur(12px);
+
+} 
