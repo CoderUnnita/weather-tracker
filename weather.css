@@ -39,7 +39,7 @@ body::before{
 
 /* backdrop-filter:blur(_px) */
 
-.main-container1{
+.weather-box{
     /* border - designing begins here  */
 
     border-style: solid;
@@ -57,7 +57,7 @@ body::before{
     
 }
 
-.main-container2{
+.weather-inner-box{
 
     /* another-container border designing  */
     
