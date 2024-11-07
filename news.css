@@ -12,3 +12,22 @@
     /* basic crucial designing here */
 
 }
+
+.news-box{
+        /* border - designing begins here  */
+
+        border-style: solid;
+        border-width: 6px;
+        border-color: white;
+    
+        /* border designing ends here */
+    
+        /* container specifications for better look */
+    
+        width: 810px;
+        height: 560px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        
+    
+}
