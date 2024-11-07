@@ -50,8 +50,8 @@ body::before{
 
     /* container specifications for better look */
 
-    width: 810px;
-    height: 560px;
+    width: 600px;
+    height: 600px;
     margin-bottom: 3%;
     margin-top: 3%;
     
@@ -65,8 +65,8 @@ body::before{
     border-width: 3.8px;
     border-color: white;
 
-    width: 760px;
-    height: 510px;
+    width: 560px;
+    height: 710px;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
