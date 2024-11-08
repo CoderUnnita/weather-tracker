@@ -55,6 +55,14 @@ body::before{
     
 }
 
+.smile{
+    width: 10%;
+    height: 10%;
+    position: fixed;
+    padding-left: 7px;
+    padding-bottom: 1%;
+
+}
 h1{
     text-align: center;
     font-size: xx-large;
