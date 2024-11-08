@@ -114,7 +114,7 @@ h1{
     border-color: white;
     background: rgb(0, 0, 0, 0.1);
     /* transition:  height 4s  ease-in 2s; */
-    
+    position: relative;
 }
 
 .city-name::placeholder{
@@ -134,6 +134,15 @@ h1{
     border: 3px solid rgb(0, 0, 0, 0.1);
 } */
 
+
+.search-symbol{
+    position: absolute;
+    right: 16px;
+    top: 17.8%;
+    left: 410px;
+    color: white;
+
+}
 /* testing sliding button feature in the web page */
 
 /* kindly ignore this comment  */
