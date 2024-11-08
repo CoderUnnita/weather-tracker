@@ -50,7 +50,7 @@ body::before{
     padding: 5px;
     color: rgb(255, 255, 255);
     font-family: "Iti", cursive;
-
+    transition: left 2s;
 
     
 }
@@ -58,15 +58,8 @@ body::before{
 h1{
     text-align: center;
     font-size: xx-large;
-    color: black;
+    color: white;
     margin-top: 2%;
-}
-
-.city-name{
-    text-align: center;
-    color: black;
-    backdrop-filter: blur(10px);
-    border-radius: 99px;
 }
 
 .weather-box{
@@ -109,14 +102,41 @@ h1{
 
 .city-name{
     width: 480px;
+    height: 33px;
     margin-left: 20px;
     margin-top: 7%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    /* border: 3px solid transparent; */
+    outline: none;
+    border-radius: 98px;
     border-style: double;
+    border-color: white;
+    background: rgb(0, 0, 0, 0.1);
+    /* transition:  height 4s  ease-in 2s; */
     
 }
 
+.city-name::placeholder{
+    color: white;
+}
+ 
+/* .city-name::before{
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: right 0.5s;
+    left: -100%; */
+
+/* .city-name:hover::before{
+    left: 100%;
+} */
+
+/* .city-name:focus{
+    border: 3px solid rgb(0, 0, 0, 0.1);
+} */
 
 /* testing sliding button feature in the web page */
+
+/* kindly ignore this comment  */
 
 /* button{
     display: flex;
