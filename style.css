@@ -172,21 +172,23 @@ img{
     padding-top: 4%;
     padding-left: 8.6%;
     position: relative;
-    border-color: red;
-    border-style: solid;
     display: flex;
     color: black;
+    height: 200%;
 } 
 
 h5{
-    border-style: solid;
-    border-color: green;
-    padding-left: 8.6%;
+    padding-left: 8.9%;
+    text-align: right;
+    display: flex;
 
 }
 
-
-
+.country-name{
+    padding-bottom: 1%;
+    margin-top: -1%;
+    font-size: 22px;
+}
 
 
 
