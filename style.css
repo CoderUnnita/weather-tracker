@@ -100,6 +100,10 @@ h1{
 
 }
 
+.serach-section{
+    position: relative;
+}
+
 .city-name{
     width: 460px;
     height: 33px;
@@ -137,7 +141,13 @@ h1{
 
 .search{
     position: absolute;
+    transform: translateY(-0.8%);
+    top: 17.7%;
+    right: 14%;
     color: white;
+    border-style: none;
+    background: none;
+
 
 }
 
