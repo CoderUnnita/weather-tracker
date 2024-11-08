@@ -7,3 +7,6 @@ const search=document.querySelector('.search');
 search.addEventListener('click',() => {
     console.log(city_name.value)
 })
+city_name.addEventListener('keydown',(event) => {
+    console.log(event)
+})
