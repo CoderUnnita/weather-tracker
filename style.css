@@ -29,19 +29,13 @@ body{
 
 }
 
-body::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100dvh;  
-}
-
 /* backdrop-filter:blur(_px) */
 
 @keyframes rgght{
     from{ margin: -35%;}
     to{ margin: 5%;}
 }
+
 h1{
     text-align: center;
     font-size: 45px;
@@ -55,19 +49,24 @@ h1{
     border-style: solid;
     border-width: 6px;
     border-color: white;
+    border-radius: 28px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
     /* border designing ends here */
 
     /* container specifications for better look */
 
-    width: 600px;
-    height: 640px;
-
-    margin-bottom: 2.5%;
-    margin-top: 2.5%;
-    margin-left: 25%;
+    max-width: 600px;
+    max-height: 640px;
+    height: 100%;
+    width: 100%;
     align-items: center;
-    
+    margin-top: 120px;
+    margin-bottom: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .inner-box{
@@ -77,6 +76,7 @@ h1{
     border-style: solid;
     border-width: 2px;
     border-color: white;
+    border-radius: 28px;
 
     width: 560px;
     height: 600px;
@@ -115,19 +115,6 @@ h1{
 .city_name::placeholder{
     color: black;
 }
- 
-/* .city-name::before{
-    background-color: rgb(0, 0, 0, 0.5);
-    transition: right 0.5s;
-    left: -100%; */
-
-/* .city-name:hover::before{
-    left: 100%;
-} */
-
-/* .city-name:focus{
-    border: 3px solid rgb(0, 0, 0, 0.1);
-} */
 
 .search{
     position: absolute;
