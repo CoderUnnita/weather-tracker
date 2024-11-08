@@ -154,6 +154,21 @@ h1{
 
 }
 
+img{
+    height: 20%;
+}
+.location{
+    background: none;
+    padding-top: 6.8%;
+    padding-left: 8%;
+    position: relative;
+}
+
+h4{
+    position: absolute;
+    color: white;
+    padding-left: 2%;
+}
 /* .search{
     backdrop-filter: blur(12px);
    
