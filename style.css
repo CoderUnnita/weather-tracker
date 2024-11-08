@@ -22,7 +22,6 @@ body{
     height: 100dvh;
     background-size: cover;
     background-position: center;
-    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -39,25 +38,10 @@ body::before{
 
 /* backdrop-filter:blur(_px) */
 
-.header{
-    top: 0%;
-    width: 280px;
-    height: 560px;
-    text-align: left;
-    font-size: xx-large;
-
-    text-decoration: none;
-    padding: 48px;
-    margin-left: 4%;
-    padding-left: 1%;
-    font-size: 104px;
-    color: white;
-    font-family: "Iti", cursive;
-    padding-top: 2%;
-    
+@keyframes rgght{
+    from{ margin: -35%;}
+    to{ margin: 5%;}
 }
-
-
 h1{
     text-align: center;
     font-size: 45px;
@@ -78,9 +62,11 @@ h1{
 
     width: 600px;
     height: 640px;
+
     margin-bottom: 2.5%;
     margin-top: 2.5%;
     margin-left: 25%;
+    align-items: center;
     
 }
 
@@ -193,42 +179,7 @@ h5{
 
 }
 
-/* testing sliding button feature in the web page */
-
-/* kindly ignore this comment  */
-
-/* button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    background-color: #f0f0f0;
-    margin: 0;
+.google-icon{
+    font-size: 100px;
 }
 
-.slide-button{
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    position: absolute;
-    overflow: hidden;
-}
-
-.slide-button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
-    transition: left 0.5s;
-}
-
-.slide-button:hover::before {
-    left: 100%;
-} */
