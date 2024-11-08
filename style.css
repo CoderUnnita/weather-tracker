@@ -101,9 +101,9 @@ h1{
 }
 
 .city-name{
-    width: 480px;
+    width: 460px;
     height: 33px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 7%;
     text-align: center;
     backdrop-filter: blur(10px);
@@ -135,14 +135,18 @@ h1{
 } */
 
 
-.search-symbol{
+.search{
     position: absolute;
-    right: 16px;
-    top: 17.8%;
-    left: 410px;
     color: white;
 
 }
+
+/* .search{
+    backdrop-filter: blur(12px);
+   
+} */
+
+
 /* testing sliding button feature in the web page */
 
 /* kindly ignore this comment  */
