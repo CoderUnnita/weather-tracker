@@ -51,7 +51,7 @@ body::before{
     margin-left: 4%;
     padding-left: 1%;
     font-size: 104px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: "Iti", cursive;
     padding-top: 2%;
     
@@ -126,7 +126,7 @@ h1{
     outline: none;
     border-radius: 98px;
     border-style: double;
-    border-color: black;
+    border-color: white;
     background: rgba(255, 255, 255, 0.1);
     /* transition:  height 4s  ease-in 2s; */
     position: relative;
@@ -135,7 +135,7 @@ h1{
 }
 
 .city_name::placeholder{
-    color: whitesmoke;
+    color: black;
 }
  
 /* .city-name::before{
@@ -157,7 +157,7 @@ h1{
     transform: translateY(-0.8%);
     top: 19.6%;
     right: 13.7%;
-    color: white;
+    color: black;
     border-style: none;
     background: none;
     cursor: pointer;
@@ -169,20 +169,26 @@ img{
 }
 .location{
     background: none;
-    padding-top: 6.8%;
-    padding-left: 8%;
+    padding-top: 4%;
+    padding-left: 8.6%;
     position: relative;
+    border-color: red;
+    border-style: solid;
+    display: flex;
+    color: black;
+} 
+
+h5{
+    border-style: solid;
+    border-color: green;
+    padding-left: 8.6%;
+
 }
 
-h4{
-    position: absolute;
-    color: white;
-    padding-left: 2%;
-}
-/* .search{
-    backdrop-filter: blur(12px);
-   
-} */
+
+
+
+
 
 
 /* testing sliding button feature in the web page */
