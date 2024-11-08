@@ -73,6 +73,10 @@ h1{
 }
 
 @keyframes top-up{
+    0%{
+        background: none;
+        
+    }
     from{margin-top: -1000px;
         margin-left: auto;
         margin-right: auto;
