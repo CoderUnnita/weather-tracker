@@ -217,16 +217,16 @@ h1{
 .search{
     position: relative;
 
-    top: 2%;
+    top: 4px;
     bottom: 2%;
-    left: 1%;
+    left: 0.2%;
     color: black;
 
     height: 33px;
-    width: 30px;
+    width: 33px;
     
     border-style: solid;
-    border-radius: 9px;
+    border-radius: 100px;
 
     background: none;
     background-color: #e6f5fb;
