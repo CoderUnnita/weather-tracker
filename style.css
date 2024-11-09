@@ -38,34 +38,65 @@ body{
 h1{
     text-align: center;
     font-size: 45px;
+    font-weight: lighter;
     color: white;
     margin-top: 2%;
 }
 
 .main-body img{
-    width: 60%;
-    height: 45%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 44%;
+    height: 44%;
 }
 
 .main-body{
     display: flex;
+    justify-content: center;
+    margin-block: 12px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-block: 12px;
 }
 
 .temp{
     font-size: 24px;
+    align-items: right;
     font-weight: bolder;
+    flex-direction: column;
+    color: black;
 }
 
 .describe{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+    text-transform: capitalize;
+    flex-direction: column;
+    color: black;
+}
+
+.minute-info{
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-right: 34px;
+}
+
+.humidity p{
+    font-weight: bolder;
+}
+
+.wind-speed p{
+    font-weight: bolder;
+}
+
+.humidity , .wind-speed{
+    align-items: center;
+}
+
+.humidity p , .wind-speed{
+    flex-direction: column;
 }
 .outer-box{
     /* border - designing begins here  */
@@ -87,7 +118,7 @@ h1{
     height: 100%;
     width: 100%;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 45px;
     margin-bottom: 90px;
     margin-left: auto;
     margin-right: auto;
@@ -109,7 +140,7 @@ h1{
         margin-right: auto;
     }
 
-    to{margin-top: 90px;
+    to{margin-top: 45px;
         margin-bottom: 10px;
         margin-left: auto;
         margin-right: auto;
@@ -127,14 +158,14 @@ h1{
     border-color: white;
     border-radius: 28px;
 
-    max-width: 560px;
-    max-height: 600px;
+    max-width: 580px;
+    max-height: 620px;
     width: 100%;
     height: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
     backdrop-filter: blur(12px);
 
 }
@@ -185,8 +216,4 @@ h1{
     cursor: cell;
 }
 
-
-.google-icon{
-    font-size: 100px;
-}
 
