@@ -15,7 +15,7 @@ search.addEventListener('click',() => {
     }
 })
 
-city_name.addEventListener('keydown',(event) => {
+city_name.addEventListener('keydown', (event) => {
     if (event.key == 'Enter' && 
         city_name.value.trim() != '')
         {
@@ -26,10 +26,15 @@ city_name.addEventListener('keydown',(event) => {
 
 })
 
-function getFetchData(){
-    const apiUrl = ' https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={apiKey}'
+async function getFetchData(ends_here,city){
+    const apiUrl = ' https://api.openweathermap.org/data/2.5/${ends_here}?q=${city}&appid=${apiKey}'
+
+    const reply = await fetch(apiUrl)
+
+    return reply.json()
 }
 
-function updateWeather_detail(city){
-    const weatherData = getFetchData()
+async function updateWeather_detail(city){
+    const weather_Data = await getFetchData('weather',city)
+    console.log(weather_Data)
 }
