@@ -95,7 +95,7 @@ h1{
     margin-right: 34px;
 }
 
-.humidity p{
+.humidity_12 p{
     font-weight: bolder;
 }
 
@@ -103,11 +103,11 @@ h1{
     font-weight: bolder;
 }
 
-.humidity , .wind-speed{
+.humidity_12 , .wind-speed{
     align-items: center;
 }
 
-.humidity p , .wind-speed{
+.humidity_12 p , .wind-speed{
     flex-direction: column;
 }
 .outer-box{
