@@ -6,8 +6,6 @@ const searchKey = document.getElementById('.searchBttn');
 const weatherImg = document.querySelector('.images');
 const temper = document.querySelector('.temp');
 const explain = document.querySelector('.describe');
-const humid = document.getElementById('.humidit');
-const speed = document.getElementById('.wind-speed');
 
 async function identifyWeather(city){
     const apiKey = 'b39a53c9458c52145b9a150c3394dd06';
@@ -21,11 +19,15 @@ async function identifyWeather(city){
 
     explain.innerHTML = `${weatherDetails.weather[0].description}`;
 
-    humid.innerHTML = `${weatherDetails.main.humidity}%`;
-
-    speed.innerHTML = `${weatherDetails.wind.speed}Km/H`;
+    switch(weatherDetails.weather[0].description)
+    {
+        case 'clouds':
+            weather tracker.src="cloud.png";
+         
+    }
 
 }
+
 searchBttn.addEventListener('click', () => {
     identifyWeather(city_name.value);
 })

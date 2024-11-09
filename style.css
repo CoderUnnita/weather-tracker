@@ -85,31 +85,6 @@ h1{
     color: black;
 }
 
-.minute-info{
-    display: flex;
-    font-weight: bolder;
-    justify-content: space-between;
-    /* width: 100%; */
-    margin-top: 10px;
-    margin-left: 75px;
-    margin-right: 34px;
-}
-
-.humidity_12 p{
-    font-weight: bolder;
-}
-
-.wind-speed p{
-    font-weight: bolder;
-}
-
-.humidity_12 , .wind-speed{
-    align-items: center;
-}
-
-.humidity_12 p , .wind-speed{
-    flex-direction: column;
-}
 .outer-box{
     /* border - designing begins here  */
 
