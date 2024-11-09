@@ -22,8 +22,21 @@ async function identifyWeather(city){
     switch(weatherDetails.weather[0].description)
     {
         case 'clouds':
-            weather tracker.src="cloud.png";
+            weatimg.src="weatherImage/cloud.png";
          
+        case 'clouds':
+            weatimg.src="weatherImage/cloud.png";  
+
+        case 'clouds':
+            
+        weatimg.src="weatherImage/cloud.png";
+
+        case 'clouds':
+            weatimg.src="weatherImage/cloud.png";
+            
+        case 'clouds':
+            weatimg.src="weatherImage/cloud.png";
+
     }
 
 }
