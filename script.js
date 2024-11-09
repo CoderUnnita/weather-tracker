@@ -11,9 +11,9 @@ const speed = document.getElementById('.wind-speed');
 
 async function identifyWeather(cityU){
     const apiKey = 'b39a53c9458c52145b9a150c3394dd06';
-    const link = 'https://api.openweathermap.org/data/2.5/weather?q=${cityU}&appid=${apiKey}';
+    const link = `https://api.openweathermap.org/data/2.5/weather?q=${cityU}&appid=${apiKey}`;
 
-    const weatherDetails =  await fetch('${link}').then(response => response.json());
+ const weatherDetails = await fetch(link).then((response) => response.json());
 
     console.log(weatherDetails);
 
