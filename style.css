@@ -209,4 +209,11 @@ h1{
     cursor: cell;
 }
 
-
+.extra{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
