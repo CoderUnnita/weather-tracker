@@ -52,7 +52,7 @@ h1{
     from{ 
         margin-left: -580px;
         margin-bottom: 620px;
-        margin-top: 90px; }
+        margin-top: -300px; }
     to { margin-right: 580px;}
 }
 .main-body img{
@@ -207,6 +207,7 @@ h1{
     position: relative;
     padding-right: 50px;
     padding-left: 15px;
+    
 }
 
 .city_name::placeholder{
