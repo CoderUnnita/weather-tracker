@@ -38,7 +38,7 @@ body{
 h1{
     text-align: center;
     font-size: 45px;
-    color: black;
+    color: white;
     margin-top: 2%;
 }
 
@@ -60,7 +60,7 @@ h1{
 
 .temp{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .describe{
@@ -71,7 +71,7 @@ h1{
     /* border - designing begins here  */
 
     border-style: solid;
-    border-width: 6px;
+    border-width: 4.5px;
     border-color: white;
     border-radius: 28px;
     align-items: center;
@@ -87,8 +87,8 @@ h1{
     height: 100%;
     width: 100%;
     align-items: center;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 90px;
+    margin-bottom: 90px;
     margin-left: auto;
     margin-right: auto;
 
@@ -109,7 +109,7 @@ h1{
         margin-right: auto;
     }
 
-    to{margin-top: 120px;
+    to{margin-top: 90px;
         margin-bottom: 10px;
         margin-left: auto;
         margin-right: auto;
@@ -124,7 +124,7 @@ h1{
     
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: white;
     border-radius: 28px;
 
     max-width: 560px;
@@ -135,7 +135,7 @@ h1{
     margin-bottom: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    background-color: white;
+    backdrop-filter: blur(12px);
 
 }
 
