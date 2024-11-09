@@ -36,13 +36,25 @@ body{
 /* backdrop-filter:blur(_px) */
 
 h1{
+    width: 100%;
     text-align: center;
     font-size: 45px;
     font-weight: lighter;
     color: white;
     margin-top: 2%;
+
+    animation-name: to-right;
+    animation-duration: 3s;
+    animation-delay: 0s;
 }
 
+@keyframes to-right {
+    from{ 
+        margin-left: -580px;
+        margin-bottom: 620px;
+        margin-top: 90px; }
+    to { margin-right: 580px;}
+}
 .main-body img{
     width: 44%;
     height: 44%;
@@ -176,17 +188,19 @@ h1{
 
 .city_name{
     width: 380px;
-    height: 35px;
+    height: 33px;
     margin-left: 68px;
-    margin-top: 6.55%;
+    margin-top: 5.6%;
     text-align: left;
 
     backdrop-filter: blur(10px);
     /* border: 3px solid transparent; */
     outline: none;
+
     border-radius: 98px;
     border-style: double;
     border-color: black;
+
     background: #e6f5fb;
     /* transition:  height 4s  ease-in 2s; */
 
@@ -202,11 +216,14 @@ h1{
 .search{
     position: relative;
 
-    top: 20%;
-    bottom: 8%;
+    top: 2%;
+    bottom: 2%;
     left: 1%;
     color: black;
 
+    height: 33px;
+    width: 30px;
+    
     border-style: solid;
     border-radius: 9px;
 
