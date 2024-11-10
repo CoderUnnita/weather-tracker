@@ -5,7 +5,7 @@ const city_name = document.querySelector('.city_name');
 const water = document.querySelector('.watai');
 const spread = document.querySelector('.winsp');
 const searchKey = document.querySelector('#searchBttn');
-const weatherImg = document.querySelector('images');
+const weatherImg = document.querySelector('#images');
 const temper = document.querySelector('.temp');
 const explain = document.querySelector('.describe');
 
@@ -44,23 +44,31 @@ async function identifyWeather(city){
 
     switch(weatherDetails.weather[0].main)
     {
-        case 'clouds':
+        case 'Clouds':
             weatherImg.src="/weatherImage/cloud.png";
             break;
-         
-        case 'clear':
-            weatherImg.src="/weatherImage/clear.png";
-            break;
 
-        case 'mist':
-            weatherImg.src="/weatherImage/mist.png";
-            break;
-
-        case 'rain':
+        case 'Overcast clouds':
             weatherImg.src="/weatherImage/rain.png";
             break;
             
-        case 'snow':
+        case 'Haze':
+            weatherImg.src="/weatherImage/mist.png";
+            break; 
+         
+        case 'Clear':
+            weatherImg.src="/weatherImage/clear.png";
+            break;
+
+        case 'Mist':
+            weatherImg.src="/weatherImage/mist.png";
+            break;
+
+        case 'Rain':
+            weatherImg.src="/weatherImage/rain.png";
+            break;
+            
+        case 'Snow':
             weatherImg.src="/weatherImage/snow.png";
             break;
 
