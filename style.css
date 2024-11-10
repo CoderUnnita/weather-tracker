@@ -100,8 +100,8 @@ h1{
 
     /* container specifications for better look */
 
-    max-width: 600px;
-    max-height: 640px;
+    max-width: 580px;
+    max-height: 580px;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -145,8 +145,8 @@ h1{
     border-color: white;
     border-radius: 28px;
 
-    max-width: 580px;
-    max-height: 620px;
+    max-width: 560px;
+    max-height: 560px;
     width: 100%;
     height: 100%;
     margin-top: 1%;
@@ -209,11 +209,21 @@ h1{
     cursor: cell;
 }
 
-.extra{
-    width: 100%;
+footer{
     display: flex;
     position: relative;
-    align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    margin-block: 1px;
+    margin-left: 55px;
+    margin-right: 55px;
+
+}
+
+.msg{
+    font-weight: bolder;
+}
+
+.waterair , .wind-speed{
+    font-weight: bolder;
 }
