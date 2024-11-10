@@ -22,27 +22,36 @@ async function identifyWeather(city){
 
     explain.innerHTML = `${weatherDetails.weather[0].description}`;
 
+    water.innerHTML = `${weatherDetails.main.humidity}`;
+
+    spread.innerHTML = `${weatherDetails.wind.speed}`;
+
     switch(weatherDetails.weather[0].main)
     {
         case 'clouds':
             weatherImg.src="weatherImage/cloud.png";
             filter: none;
+            break;
          
         case 'clear':
             weatherImg.src="weatherImage/clear.png";
             filter: none;
+            break;
 
         case 'mist':
             weatherImg.src="weatherImage/mist.png";
             filter: none;
+            break;
 
         case 'rain':
             weatherImg.src="weatherImage/rain.png";
             filter: none;
+            break;
             
         case 'snow':
             weatherImg.src="weatherImage/snow.png";
             filter: none;
+            break;
 
     }
 
