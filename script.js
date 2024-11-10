@@ -2,10 +2,10 @@ console.log("Major Frontend tech used : HTML & CSS");
 console.log("Major Backend tech used : JavaScript & API");
 
 const city_name = document.querySelector('.city_name');
-const water = document.getElementById('.waterair');
-const spread = document.getElementById('.wind');
-const searchKey = document.getElementById('.searchBttn');
-const weatherImg = document.querySelector('.images');
+const water = document.querySelector('.watai');
+const spread = document.querySelector('.wind');
+const searchBttn = document.querySelector('.searchBttn');
+const weatherImg = document.querySelector('images');
 const temper = document.querySelector('.temp');
 const explain = document.querySelector('.describe');
 
@@ -16,7 +16,12 @@ async function identifyWeather(city){
 
  const weatherDetails = await fetch(link).then((response) => response.json());
 
-    console.log(weatherDetails)
+    console.log(weatherDetails);
+
+    if (weatherDetails.cod === '404'){
+        weatherImg.src = "/weatherImage/404.png";
+        return;
+    }
 
     temper.innerHTML = `${Math.round (weatherDetails.main.temp - 273.15)}°C`;
 
@@ -29,28 +34,23 @@ async function identifyWeather(city){
     switch(weatherDetails.weather[0].main)
     {
         case 'clouds':
-            weatherImg.src="weatherImage/cloud.png";
-            filter: none;
+            weatherImg.src="/weatherImage/cloud.png";
             break;
          
         case 'clear':
-            weatherImg.src="weatherImage/clear.png";
-            filter: none;
+            weatherImg.src="/weatherImage/clear.png";
             break;
 
         case 'mist':
-            weatherImg.src="weatherImage/mist.png";
-            filter: none;
+            weatherImg.src="/weatherImage/mist.png";
             break;
 
         case 'rain':
-            weatherImg.src="weatherImage/rain.png";
-            filter: none;
+            weatherImg.src="/weatherImage/rain.png";
             break;
             
         case 'snow':
-            weatherImg.src="weatherImage/snow.png";
-            filter: none;
+            weatherImg.src="/weatherImage/snow.png";
             break;
 
     }
