@@ -2,10 +2,13 @@ console.log("Major Frontend tech used : HTML & CSS");
 console.log("Major Backend tech used : JavaScript & API");
 
 const city_name = document.querySelector('.city_name');
+const water = document.getElementById('.waterair');
+const spread = document.getElementById('.wind');
 const searchKey = document.getElementById('.searchBttn');
 const weatherImg = document.querySelector('.images');
 const temper = document.querySelector('.temp');
 const explain = document.querySelector('.describe');
+
 
 async function identifyWeather(city){
     const apiKey = 'b39a53c9458c52145b9a150c3394dd06';
@@ -19,23 +22,27 @@ async function identifyWeather(city){
 
     explain.innerHTML = `${weatherDetails.weather[0].description}`;
 
-    switch(weatherDetails.weather[0].description)
+    switch(weatherDetails.weather[0].main)
     {
         case 'clouds':
-            weatimg.src="weatherImage/cloud.png";
+            weatherImg.src="weatherImage/cloud.png";
+            filter: none;
          
-        case 'clouds':
-            weatimg.src="weatherImage/cloud.png";  
+        case 'clear':
+            weatherImg.src="weatherImage/clear.png";
+            filter: none;
 
-        case 'clouds':
-            
-        weatimg.src="weatherImage/cloud.png";
+        case 'mist':
+            weatherImg.src="weatherImage/mist.png";
+            filter: none;
 
-        case 'clouds':
-            weatimg.src="weatherImage/cloud.png";
+        case 'rain':
+            weatherImg.src="weatherImage/rain.png";
+            filter: none;
             
-        case 'clouds':
-            weatimg.src="weatherImage/cloud.png";
+        case 'snow':
+            weatherImg.src="weatherImage/snow.png";
+            filter: none;
 
     }
 
