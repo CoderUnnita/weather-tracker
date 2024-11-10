@@ -222,6 +222,7 @@ footer{
 
 .msg{
     font-weight: bolder;
+    text-transform: capitalize;
 }
 
 .waterair , .wind-speed p{
