@@ -39,8 +39,8 @@ h1{
     width: 100%;
     text-align: center;
     font-size: 45px;
-    font-weight: lighter;
-    color: white;
+    font-weight: light;
+    color: black;
     margin-top: 2%;
 
     animation-name: to-right;
@@ -74,12 +74,14 @@ h1{
     font-size: 24px;
     align-items: right;
     font-weight: bolder;
+    line-height: 40px;
     flex-direction: column;
     color: black;
 }
 
 .describe{
     font-size: 28px;
+    line-height: 20px;
     font-weight: bold;
     text-transform: capitalize;
     flex-direction: column;
@@ -177,7 +179,7 @@ h1{
     border-style: double;
     border-color: black;
 
-    background: #e6f5fb;
+    background: rgb(201, 228, 260);
     /* transition:  height 4s  ease-in 2s; */
 
     position: relative;
@@ -202,10 +204,10 @@ h1{
     width: 33px;
     
     border-style: solid;
-    border-radius: 100px;
+    border-radius: 12px;
 
     background: none;
-    background-color: #e6f5fb;
+    background: rgb(201, 228, 260);
     cursor: pointer;
     cursor: cell;
 }
@@ -216,6 +218,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     margin-block: 1px;
+    margin-top: 15px;
     margin-left: 55px;
     margin-right: 55px;
 
@@ -225,6 +228,12 @@ footer{
     font-weight: bolder;
 }
 
-.waterair , .wind-speed{
+.waterair , .wind-speed p{
     font-weight: bolder;
+    font-size: medium;
+}
+
+img{
+    margin-left: -8%;
+    filter: drop-shadow(12px 5px 7px  black);
 }
