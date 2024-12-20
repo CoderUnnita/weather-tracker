@@ -1,6 +1,8 @@
 console.log("Major Frontend tech used : HTML & CSS");
 console.log("Major Backend tech used : JavaScript & API");
 
+
+//DOM Manipulation
 const city_name = document.querySelector('.city_name');
 const water = document.querySelector('.watai');
 const spread = document.querySelector('.winsp');
